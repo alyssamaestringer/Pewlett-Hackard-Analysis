@@ -7,12 +7,21 @@ In this analysis, we specifically wanted to see the number of retiring employees
 
 ## Results: 
 - I discovered there were 72,458 total employees that were eligible to retire:
-![retiring](Analysis Projects Folder/Pewlett-Hackard-Analysis Folder/data/images/retiring_emp_count.png)
+
+![retiring](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/images/retiring_emp_count.png)
+
 - I also discovered the count of retiring employees by title, and how many are expected to retire per title. In this discovery, senior job positions had an overwhelming majority of employees eligible to retire.
-![titles](Analysis Projects Folder/Pewlett-Hackard-Analysis Folder/data/images/titles_count.png)
+
+
+![titles](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/images/titles_count.png)
+
 - Before filtering out duplicate employees, there were in total 133,776 titles eligible to retire. After conducting a query to filter out duplicates and create a clean list, we discovered 61,318 duplicates. The clean list is located in unique_titles.csv.
+
+
 - Finally, we found 1,549 employees eligibile for the mentorship program. 
-![mentorship](Analysis Projects Folder/Pewlett-Hackard-Analysis Folder/data/images/mentorship_elig.png)
+
+
+![mentorship](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/images/mentorship_elig.png)
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 ### 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
@@ -30,6 +39,8 @@ ORDER BY "count" DESC;
 ```
 
 After running that query, we can see the following information:
-![mentor titles](Analysis Projects Folder/Pewlett-Hackard-Analysis Folder/data/images/mentor_titles.png)
+
+
+![mentor titles](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/images/mentor_titles.png)
 
 With this information in mind and compared to the information we [already have](https://github.com/alyssamaestringer/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/data/retiring_titles.csv) on the breakdown of retiring employees by title, we know that there are plenty of retiring employees availble to mentor the eligible next generation of Pewlett Hackard employees.
