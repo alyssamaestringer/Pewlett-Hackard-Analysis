@@ -25,7 +25,7 @@ In this analysis, we specifically wanted to see the number of retiring employees
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 ### 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Like stated above, 72,458 total employees are eligible to retire and roles will need to be filled. More specifically, 25,916 Senior Engineer roles, 24,926 Senior Staff roles, 9,285 Engineer roles, 7,636 Staff roles, 3,603 Technique Leader roles, 1,090 Assistant Engineer roles, and 2 Manager roles. That information is located [here](https://github.com/alyssamaestringer/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/data/retiring_titles.csv) in the analysis.
+Like stated above, 72,458 total employees are eligible to retire and roles will need to be filled. More specifically, 25,916 Senior Engineer roles, 24,926 Senior Staff roles, 9,285 Engineer roles, 7,636 Staff roles, 3,603 Technique Leader roles, 1,090 Assistant Engineer roles, and 2 Manager roles. That information is located [here](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/retiring_titles.csv) in the analysis.
 
 ### 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 In total, there are 72,458 employees ready to retire and only 1,549 employees eligible for the mentorship program. There should be plenty of retirement-ready emplpyees to mentor the next generation of Pewlett Hackard employees. 
@@ -43,4 +43,4 @@ After running that query, we can see the following information:
 
 ![mentor titles](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/images/mentor_titles.png)
 
-With this information in mind and compared to the information we [already have](https://github.com/alyssamaestringer/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/data/retiring_titles.csv) on the breakdown of retiring employees by title, we know that there are plenty of retiring employees availble to mentor the eligible next generation of Pewlett Hackard employees.
+With this information in mind and compared to the information we [already have](Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder/data/retiring_titles.csv) on the breakdown of retiring employees by title, we know that there are plenty of retiring employees availble to mentor the eligible next generation of Pewlett Hackard employees.
